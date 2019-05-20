@@ -1,0 +1,79 @@
+[
+	{
+		"id": 1,
+		"name": "LiveMerch",
+		"description": "An application that allows users to view performing Artists or Concerts in a given city.  As well as displays merchandise from eBay for the Artist or event.",
+		"technology": "LiveMerch is solely a front end application built with HTML, CSS/SASS, and JS/Jquery.  It pulls from the Songkick and eBay APIs to provide functionality to the user.",
+		"website": "https://jhgarrett.github.io/project_one/",
+		"github": "https://github.com/JHGarrett/project_one",
+		"image": "https://i.imgur.com/1zJwbet.jpg",
+		"mobile": false,
+		"group": true
+	},
+	{
+		"id": 2,
+		"name": "Mise en Place",
+		"description": "A weekly meal planner application allowing users to search for recipes, and if logged in, favorite and save recipes to their calendar.",
+		"technology": "Sequelize, Express with the front end rendered with Handlebars.  Uses the Edamam API to search for recipes and Full Calendar to display the user's meal schedule.",
+		"website": "https://murmuring-brushlands-67751.herokuapp.com/",
+		"github": "https://github.com/Tothinator/project-2",
+		"image": "https://i.imgur.com/ZXqq364.png",
+		"mobile": true,
+		"group": true
+	},
+	{
+		"id": 3,
+		"name": "TweetTrace",
+		"description": "An application that gives statistics on users' weekly twitter activity. Tracks their daily likes and retweets, displays recent feed activity, and if others replied to their tweet, the user can see sentiment of those replies in form of a graph.",
+		"technology": "MERN stack, using Twitter API to oAuth the user and pull their data for display.  IBM Tone Analzyer was used to measure sentiment of tweet replies.",
+		"website": "https://pure-escarpment-67547.herokuapp.com/",
+		"github": "https://github.com/ddtian38/twitter-analysis",
+		"image": "https://i.imgur.com/rA0tSYB.png",
+		"mobile": true,
+		"group": true
+	},
+	{
+		"id": 4,
+		"name": "Click Fury",
+		"description": "A memory guessing game using Kung Fury gifs! Designed in 80s retro fashion.",
+		"technology": "Built with React and Express and a small json containing the 12 gifs and their information.",
+		"website": "https://tothinator.github.io/clicky-game/",
+		"github": "https://github.com/Tothinator/clicky-game",
+		"image": "https://i.imgur.com/HuYU3GB.png",
+		"mobile": true,
+		"group": false
+	},
+	{
+		"id": 5,
+		"name": "Smash News Scrape",
+		"description": "Application to scrape news articles from https://smashboards.com/news/ Users can then comment on saved articles and rescrape new articles from the site.",
+		"technology": "Scraping was done with Cheerio and Axios, and stack is MongoDB, express, and handlebars.",
+		"website": "https://agile-sierra-86412.herokuapp.com/",
+		"github": "https://github.com/Tothinator/news-scrape",
+		"image": "https://i.imgur.com/l5W7aiY.jpg",
+		"mobile": true,
+		"group": false
+	},
+	{
+		"id": 6,
+		"name": "Google Book Search",
+		"description": "An application to that allows users to search the Google Books API and save books they are interested in.",
+		"technology": "This application was developed with a MERN stack and made to practice using this stack.",
+		"website": "https://serene-fjord-80135.herokuapp.com/saved",
+		"github": "https://github.com/Tothinator/book-search",
+		"image": "https://i.imgur.com/kfWg3jg.png",
+		"mobile": true,
+		"group": false
+	},
+	{
+		"id": 7,
+		"name": "Word Guess",
+		"description": "A simple hangman-like game with custom GIF letters.",
+		"technology": "This was made with HTML and vanilla JavaScript, and the GIFs were made in After Effects and Photoshop.",
+		"website": "https://tothinator.github.io/Simple-games/",
+		"github": "https://github.com/Tothinator/Simple-games",
+		"image": "https://i.imgur.com/vTlFEUN.png",
+		"mobile": false,
+		"group": false
+	}
+]

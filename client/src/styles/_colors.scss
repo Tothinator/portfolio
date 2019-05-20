@@ -1,0 +1,11 @@
+$dark-mode: (
+    primary: #0b0c10,
+    secondary: #1F2833,
+    nuetral: #C5C6C7,
+    accent: #66FCF1,
+    accent-dark: #45A29E
+);
+
+@function color ($color-name) {
+    @return map-get($dark-mode, $color-name);
+}

@@ -1,0 +1,16 @@
+@import './styles/colors';
+
+#name {
+  color: color(accent-dark);
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.5em;
+  padding: 0px 15px;
+  border: 10px solid color(accent-dark);
+}
+
+#portfolio-header {
+  font-size: 2.5em;
+  margin: 0;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}

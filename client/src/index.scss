@@ -1,0 +1,27 @@
+@import 'styles/media.scss';
+@import 'styles/colors.scss';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("/assets/images/potentialBackground.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 25%;
+  margin: 0;
+  color: color(nuetral);
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @include desktop {
+    background-position-x: 0%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
