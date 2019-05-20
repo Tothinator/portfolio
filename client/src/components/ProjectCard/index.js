@@ -12,8 +12,8 @@ function ProjectCard({ name, description, technology, website, github, image, mo
             <p className='project-description'> {description} </p>
             <img src={image} alt={name} className='project-image' />
             <p className='project-technology'> {technology} </p>
-            <a href={website} className='project-website'> Website </a>
-            <a href={github} className='project-github'> GitHub </a>
+            <a href={website} className='project-website' target='_blank' rel='noopener noreferrer'> Website </a>
+            <a href={github} className='project-github' target='_blank' rel='noopener noreferrer'> GitHub </a>
         </Grid>
     )
 }

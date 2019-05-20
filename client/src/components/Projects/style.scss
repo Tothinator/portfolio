@@ -1,4 +1,15 @@
+@import '../../styles/media';
+
 #project-container {
-    width: 70%;
+    width: 95%;
     text-align: center;
+    margin: 30px auto;
+
+    @include desktop {
+        width: 70%;
+    }
+}
+
+#project-container.scroll {
+    margin: 0 auto;
 }

@@ -18,7 +18,6 @@ class Projects extends Component {
                 justify='center'
                 alignItems='center'
                 id='project-container'
-                spacing={24}
             >
                 {this.state.pjs.map(project => {
                     return <ProjectCard 
