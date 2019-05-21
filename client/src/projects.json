@@ -3,7 +3,7 @@
 		"id": 1,
 		"name": "LiveMerch",
 		"description": "An application that allows users to view performing Artists or Concerts in a given city.  As well as displays merchandise from eBay for the Artist or event.",
-		"technology": "LiveMerch is solely a front end application built with HTML, CSS/SASS, and JS/Jquery.  It pulls from the Songkick and eBay APIs to provide functionality to the user.",
+		"technology": "LiveMerch is solely a front end application built with HTML, CSS/SASS, and JS/jQuery.  It pulls from the Songkick and eBay APIs to provide functionality to the user.",
 		"website": "https://jhgarrett.github.io/project_one/",
 		"github": "https://github.com/JHGarrett/project_one",
 		"image": "https://i.imgur.com/1zJwbet.jpg",
@@ -28,7 +28,7 @@
 		"technology": "MERN stack, using Twitter API to oAuth the user and pull their data for display.  IBM Tone Analzyer was used to measure sentiment of tweet replies.",
 		"website": "https://pure-escarpment-67547.herokuapp.com/",
 		"github": "https://github.com/ddtian38/twitter-analysis",
-		"image": "https://i.imgur.com/rA0tSYB.png",
+		"image": "https://i.imgur.com/SYwiPa3.png",
 		"mobile": true,
 		"group": true
 	},

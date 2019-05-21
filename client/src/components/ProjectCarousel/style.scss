@@ -1,0 +1,81 @@
+@import '../../styles/colors';
+
+#project-carousel {
+
+    .carousel-card{ 
+
+        width: 35%;
+        height: auto;
+
+        .carousel-wrapper {
+            display: flex;
+            position: relative;
+            height: 100%;
+            transition: 0.5s;
+
+            .carousel-img {
+                height: 100%;
+                width: 100%;
+                transition: 0.5s;
+            }
+
+            .carousel-overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                text-align: center;
+                transition: 0.5s;
+                background-color: rgba(color(secondary), 0);            
+            
+                .carousel-title {
+                    opacity: 0;
+                    transition: 0.5s;
+                }
+
+                .carousel-text {
+                    margin: 0;
+                    opacity: 0;
+                    transition: 0.5s;
+                }
+
+                .carousel-btn {
+                    margin-top: 30px;
+                    opacity: 0;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+
+    .carousel-card.active:hover {
+        
+        .carousel-img {
+            transform: scale(1.2);
+        }
+
+        .carousel-overlay {
+            transform: scale(1.2);
+            background-color: rgba(color(secondary), 0.7);         
+        
+            .carousel-title {
+                opacity: 1;
+            }
+
+            .carousel-text {
+                opacity: 1;
+            }
+
+            .carousel-btn {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.carousel-btn {
+    background-color: color(accent-dark);
+}
+
+.carousel-btn:hover {
+    background-color: color(accent);
+}
