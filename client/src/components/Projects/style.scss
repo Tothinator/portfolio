@@ -3,7 +3,7 @@
 #project-container {
     width: 95%;
     text-align: center;
-    margin: 30px auto;
+    margin: -40px auto;
 
     @include desktop {
         width: 70%;
@@ -15,9 +15,10 @@
 }
 
 #project-carousel {
-    margin-top: 2.5em;
+    margin-top: -2em;
 }
 
 #project-view-row {
     text-align: center;
+    height: 100%;
 }
