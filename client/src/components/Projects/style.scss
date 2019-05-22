@@ -14,11 +14,14 @@
     margin: 0 auto;
 }
 
-#project-carousel {
-    margin-top: -2em;
-}
+// #project-carousel {
+//     margin-top: -2em;
+// }
 
 #project-view-row {
+    margin: 20px auto;
     text-align: center;
-    height: 100%;
+    justify-content: center;
+    display: flex;
+    transition: 1s;
 }

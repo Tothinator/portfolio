@@ -12,7 +12,7 @@ class Projects extends Component {
     state = {
         pjs,
         active: false,
-        projectView: null
+        projectView: {}
     }
 
     setProjectView = id => {
