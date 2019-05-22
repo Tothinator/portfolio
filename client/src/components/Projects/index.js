@@ -4,12 +4,29 @@ import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 import pjs from '../../projects.json';
 import ProjectCard from '../ProjectCard'; 
 import ProjectCarousel from '../ProjectCarousel';
+import ProjectView from '../ProjectView';
 import './style.scss';
 
 class Projects extends Component {
 
     state = {
-        pjs
+        pjs,
+        active: false,
+        projectView: null
+    }
+
+    setProjectView = id => {
+        this.setState({
+            active: true,
+            projectView: this.state.pjs.filter(pj => pj.id === id)[0]
+        });
+    }
+
+    disableProjectView = () => {
+        this.setState({
+            active: false,
+            projectView: null
+        })
     }
 
     render() {
@@ -46,9 +63,20 @@ class Projects extends Component {
                 alignItems='center'
                 id='carousel-container'
             >
+                {this.state.active && 
+                    <Grid item xs={12} id='project-view-row'>
+                        <ProjectView
+                            project={this.state.projectView}
+                            active={this.state.active}
+                            disable={() => this.disableProjectView()}
+                        />
+                    </Grid>
+                }
                 <Grid item xs={12}>
                     <ProjectCarousel 
                         projects={this.state.pjs}
+                        active={this.state.active}
+                        onClick={id => this.setProjectView(id)}
                     />
                 </Grid>
             </Grid>

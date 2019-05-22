@@ -23,6 +23,7 @@ function App() {
           <Grid item xs={12}>
             <a href='https://www.linkedin.com/in/david-toth-5a897a151/' target='_blank' rel='noopener noreferrer'><Icon className='fab fa-linkedin'></Icon></a>
             <a href='https://github.com/Tothinator' target='_blank' rel='noopener noreferrer'><Icon className='fab fa-github-square'></Icon></a>
+            <a href='/assets/files/DavidTothResume.pdf' target='_blank' download><Icon className='fas fa-file-alt'></Icon></a>
           </Grid>
           <Grid item xs={8}>
             <p id='brand-statement'>

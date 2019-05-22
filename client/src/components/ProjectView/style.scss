@@ -1,0 +1,25 @@
+@import '../../styles/colors';
+
+#project-view-container{
+
+    position: relative;
+
+    iframe {
+        width: 100%;
+    }
+
+    .view-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+}
+
+.view-btn {
+    background-color: color(accent-dark);
+}
+
+.view-btn:hover {
+    background-color: color(accent);
+}

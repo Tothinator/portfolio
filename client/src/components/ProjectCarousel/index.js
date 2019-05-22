@@ -7,8 +7,10 @@ class ProjectCarousel extends Component {
     
     state = {
         projects: this.props.projects,
-        activeClass: false
+        activeClass: this.props.active,
     }
+
+    setProjectView = id => this.props.onClick(id);
 
     render() {
         return (
@@ -17,14 +19,14 @@ class ProjectCarousel extends Component {
                     return (
                             <div
                                 key={project.id}
-                                className={`carousel-card ${this.state.activeClass ? 'active' : ''}`}
+                                className={`carousel-card ${this.state.active ? 'active' : ''}`}
                             >
                                 <div className='carousel-wrapper'>
                                     <img className='carousel-img' src={project.image} alt={project.name} />       
                                     <div className='carousel-overlay'>
                                         <h1 className='carousel-title'>{project.name}</h1>
                                         <p className='carousel-text'>{project.description}</p>
-                                        <button className='carousel-btn waves-effect btn'>More Info</button>
+                                        <button className='carousel-btn waves-effect btn' onClick={() => this.setProjectView(project.id)}>More Info</button>
                                     </div>                             
                                 </div>
                             </div>
