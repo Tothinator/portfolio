@@ -14,3 +14,6 @@ It is built with, React, Express, Material-UI, React-Materialize, and Node-Sass.
 2. A lot of my portfolio projects are hosted on Heroku.  When displaying the iframe or visiting them for the first time in over 24 hours, they take some time to load.  This is because Heroku "shuts down" the server it is being run on if it is not used for a while.  Fix is to add a loading image to the iframe to show it is taking time to load.
 
 3. When on desktop, the jumping of iframes being loaded is jarring and I would like to add an ease in animation to make it more presentable.
+
+
+![Image of Portfolio](https://i.imgur.com/8q7854O.jpg)
