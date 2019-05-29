@@ -30,7 +30,7 @@ class Projects extends Component {
     }
 
     render() {
-        if(isWidthDown('md', this.props.width)) {
+        if(isWidthDown('md', this.props.width) || true ) {
             return (
                 <Grid 
                     container
